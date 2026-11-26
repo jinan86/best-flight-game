@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Merapi Ring Run — dawn flight over the volcanic valley</title>
+<link rel="icon" href="data:,">
+<style>
+  html, body { margin: 0; padding: 0; background: #0c1226; height: 100%; }
+  body { display: flex; align-items: center; justify-content: center; min-height: 100vh; }
+  #wrap { width: 1280px; max-width: 100vw; }
+  canvas { display: block; width: 100%; height: auto; background: #2b3a6e; }
+  #help { color: #c8d0e8; font: 13px/1.5 system-ui, sans-serif; padding: 8px 4px; }
+  #help b { color: #ffd98a; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <canvas id="game" width="1280" height="720"></canvas>
+  <div id="help"><b>Merapi Ring Run</b> — fly <b>Elang Pagi</b> through the gold rings and land on the mountain airstrip. <b>↑/↓</b> climb &amp; dive, <b>←/→</b> bank &amp; turn, <b>Shift</b> full throttle, mouse steers too. <b>Enter</b> start / restart, <b>P</b> pause, <b>M</b> mute. No network, no assets — everything is drawn in code.</div>
+</div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>

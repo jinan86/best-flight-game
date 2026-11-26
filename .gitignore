@@ -1,0 +1,12 @@
+# Entry repo: only the game, its screenshots and the hand-in program.
+kit/
+kit.tar.gz
+PROMPT.txt
+TRACKING.md
+bundle.tar.gz
+out/
+out1/
+out2/
+node_modules/
+*.log
+.DS_Store
